@@ -56,26 +56,21 @@ Same inclusive philosophy: groups with unknown composition always pass through.
 
 ## Usage
 
-### Toggle Filter Panel
-- Click the **LFG+** button on the LFG window (top-right corner), or
-- Type `/lfgplus` or `/lfg+` in chat
+### Filters — Built into the LFG Window
+Open the LFG tool with **I** — the window is automatically wider with a filter strip on the right side. No separate panel; everything is baked into the same frame.
 
-### Slash Commands
 | Command | Description |
 |---|---|
-| `/lfgplus` | Toggle the filter panel |
+| `/lfgplus` | Open the LFG window |
 | `/lfgplus reset` | Reset all settings to defaults |
-| `/lfgplus scale` | Toggle window scaling on/off |
-| `/lfgplus status` | Show addon status and detected frames |
+| `/lfgplus status` | Show addon status |
 
-### Filter Panel
-The filter panel appears to the **right** of the LFG window:
-
-1. **Role Filter** — Check/uncheck Tank, Healer, DPS toggle + individual role checkboxes
-2. **Spec Filter** — Enable toggle + expandable per-class spec lists
-3. **Group Composition** — Enable toggle + "Has Tank/Healer/DPS" checkboxes
-4. **Window Scale** — Enable toggle + slider (1.0×–2.0×)
-5. **Reset Filters** — One-click reset to defaults
+### Filter Controls (right side of the LFG window)
+1. **Role Filter** — Enable toggle + Tank / Healer / DPS checkboxes
+2. **Spec Filter** — Enable toggle + expandable per-class spec lists (click a class name to expand)
+3. **Group Composition** — Enable toggle + "Must have Tank/Healer/DPS" checkboxes
+4. **Larger Window** — Enable toggle + scale slider (1.0×–2.0×)
+5. **Reset All** — One-click reset to defaults
 
 ## Design Philosophy
 

@@ -1,0 +1,12 @@
+## Interface: 20504
+## Title: LFG+
+## Notes: Extends the built-in LFG tool with a larger window and advanced role/spec/composition filtering. Leatrix Plus style.
+## Author: Mikkel
+## Version: 1.0.0
+## SavedVariables: LFGPlusDB
+## DefaultState: enabled
+
+Core.lua
+SpecDetection.lua
+Filters.lua
+UI.lua
